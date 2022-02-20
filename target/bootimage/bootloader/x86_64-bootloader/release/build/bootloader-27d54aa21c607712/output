@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=/Users/rivram/Desktop/learn-rust/thatrustyos/Cargo.toml
-cargo:rustc-link-search=native=/Users/rivram/Desktop/learn-rust/thatrustyos/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-27d54aa21c607712/out
-cargo:rustc-link-lib=static=kernel_bin-thatrustyos
-cargo:rerun-if-env-changed=KERNEL
-cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=/Users/rivram/Desktop/learn-rust/thatrustyos/target/x86_64-rustyos/debug/thatrustyos
-cargo:rerun-if-changed=build.rs
